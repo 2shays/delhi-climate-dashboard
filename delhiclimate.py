@@ -133,7 +133,7 @@ try:
     st.markdown("---")
 
     # --- CHART 1: YEARLY TREND ---
-    st.subheader("📊 Yearly Temperature Trend (1951 - 2100)")
+    st.subheader("📊 Yearly Temperature Trend (1950 - 2100)")
     fig1 = go.Figure()
     fig1.add_trace(go.Scatter(x=yearly_h['Date'], y=yearly_h['Temp Max'], name="Historic Max", line=dict(color="#1f77b4")))
     fig1.add_trace(go.Scatter(x=yearly_h['Date'], y=yearly_h['Temp Min'], name="Historic Min", line=dict(color="#17becf")))
